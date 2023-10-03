@@ -113,7 +113,7 @@ header {
 }
 
 h1 {
-    font-size: larger;
+    font-size: 42px;
 }
 
 .header_bottom p {
@@ -168,9 +168,21 @@ h1 {
     flex-grow: 1;
 }
 
+.content>img {
+    width: 100%;
+}
+
 .menu {
     width: 320px;
-    flex-shrink: 0
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 /*FOOTER*/
