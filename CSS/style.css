@@ -73,6 +73,7 @@ header {
     border-radius: 25px;
     text-decoration: none;
     font-size: small;
+    color: white;
 }
 
 .white {
@@ -82,7 +83,10 @@ header {
 
 .black {
     background-color: #23272a;
-    color: white;
+}
+
+.blue {
+    background-color: #7289da;
 }
 
 /*DEBUG HEADER BOTTOM*/
@@ -182,6 +186,16 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.layout2 .main_bottom {
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h3 {
     margin-bottom: 30px;
 }
 
