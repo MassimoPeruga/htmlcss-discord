@@ -231,6 +231,12 @@ h3 {
 }
 
 /*LAYOUT*/
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 80px;
+}
+
 footer .layout {
     padding-top: 4px;
     padding-bottom: 24px;
@@ -250,16 +256,69 @@ footer .layout2 {
     width: 240px;
 }
 
+.sidebar div>* {
+    display: inline-block;
+}
+
+.sidebar h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.titolo {
+    color: #7289da;
+    font-weight: bold;
+}
+
+#ita {
+    width: 25px;
+}
+
+#ita>img {
+    width: 100%;
+}
+
+#icons {
+    margin-top: 10px;
+}
+
+#icons>span {
+    width: 30px;
+}
+
+#icons img {
+    width: 100%;
+}
+
 .colonna {
     width: calc(100% / 4);
+}
+
+ul {
+    list-style: none;
+    font-size: small;
+}
+
+li {
+    margin: 10px;
+}
+
+footer .layout2 {
+    background-color: transparent;
 }
 
 footer .layout2 .container {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-top: 1px solid #7289da;
 }
 
-span {
+.layout2 span {
     padding: 3px 6px;
+    width: 130px;
+}
+
+.layout2 span img {
+    width: 100%;
 }
